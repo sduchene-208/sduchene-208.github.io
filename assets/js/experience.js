@@ -7,7 +7,7 @@ const exp = [
   {
     title: "Business Analyst",
     cardImage: "assets/images/experience-page/GeoSol-Logo_Blue_No URL.jpg",
-    place: "GeoGraphic Solutions, Inc.",
+    place: "Geographic Solutions, Inc.",
     time: "(2022 - present)",
     desp: "<li>Text to be updated.</li>",
   },
@@ -23,6 +23,22 @@ const exp = [
     cardImage: "assets/images/experience-page/CLVT.jpg",
     place: "Clarivate Analytics",
     time: "(2020 - 2021)",
+    desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
+  },
+  },
+  {
+    title: "Probation and Parole Officer, Sr.",
+    cardImage: "assets/images/experience-page/idoc-logo-header.jpg",
+    place: "Idaho Department of Correction",
+    time: "(2015 - 2021)",
+    desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
+  },
+  },
+  {
+    title: "Correctional Field Training Officer.",
+    cardImage: "assets/images/experience-page/idoc-logo-header.jpg",
+    place: "Idaho Department of Correction",
+    time: "(2012 - 2015)",
     desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
   },
 ];
