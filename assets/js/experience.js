@@ -25,14 +25,12 @@ const exp = [
     time: "(2020 - 2021)",
     desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
   },
-  },
   {
     title: "Probation and Parole Officer, Sr.",
     cardImage: "assets/images/experience-page/idoc-logo-header.jpg",
     place: "Idaho Department of Correction",
     time: "(2015 - 2021)",
     desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
-  },
   },
   {
     title: "Correctional Field Training Officer.",
