@@ -40,7 +40,7 @@ const exp = [
     place: "Idaho Department of Correction",
     time: "(2012 - 2015)",
     desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
-  },
+  }
 ];
 
 const showCards2 = () => {
