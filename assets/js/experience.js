@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Business Analyst",
-    cardImage: "assets/images/experience-page/GeoSol-Logo_Blue_No URL.jpg",
+    cardImage: "assets/images/experience-page/GeoSol_Logo_1C.png",
     place: "Geographic Solutions, Inc.",
     time: "(2022 - present)",
     desp: "<li>Text to be updated.</li>",
