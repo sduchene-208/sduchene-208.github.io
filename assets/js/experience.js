@@ -20,7 +20,7 @@ const exp = [
   },
   {
     title: "Research Business Analyst",
-    cardImage: "assets/images/experience-page/CLVT.jpg",
+    cardImage: "assets/images/experience-page/CLVT (1).png",
     place: "Clarivate Analytics",
     time: "(2020 - 2021)",
     desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
