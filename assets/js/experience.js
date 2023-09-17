@@ -76,13 +76,13 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Nebraska DOL Unemployment Insurance Modernization",
+    title: "Nebraska DOL Modernization",
     cardImage: "assets/images/experience-page/Labor-Dept-Logo.png",
     description:
       "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access.",
   },
   {
-    title: "Puerto Rico DOL Unemployment Insurance Modernization",
+    title: "Puerto Rico DOL Modernization",
     cardImage: "assets/images/experience-page/PR-DOL.png",
     description:
       "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access.",
