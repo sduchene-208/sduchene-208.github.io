@@ -27,14 +27,14 @@ const exp = [
   },
   {
     title: "Probation and Parole Officer, Sr.",
-    cardImage: "assets/images/experience-page/idoc_news_default_4.png",
+    cardImage: "assets/images/experience-page/IDOC.png",
     place: "Idaho Department of Correction",
     time: "(2015 - 2021)",
     desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
   },
   {
-    title: "Correctional Field Training Officer.",
-    cardImage: "assets/images/experience-page/idoc_news_default_4.png",
+    title: "Correctional Field Training Officer",
+    cardImage: "assets/images/experience-page/IDOC.png",
     place: "Idaho Department of Correction",
     time: "(2012 - 2015)",
     desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
