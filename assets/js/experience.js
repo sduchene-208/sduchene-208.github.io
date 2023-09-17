@@ -76,10 +76,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Nebraska Department of Labor Unemployment Modernization",
+    cardImage: "assets/images/experience-page/Labor-Dept-Logo.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access; building trust and resilience in Unemployment Insurance.",
   },
   {
     title: "StudentCode-in 2020",
