@@ -76,29 +76,18 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Nebraska Department of Labor Unemployment Modernization",
+    title: "Nebraska DOL Unemployment Insurance Modernization",
     cardImage: "assets/images/experience-page/Labor-Dept-Logo.png",
     description:
-      "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access; building trust and resilience in Unemployment Insurance.",
+      "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Puerto Rico DOL Unemployment Insurance Modernization",
+    cardImage: "assets/images/experience-page/PR-DOL.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access.",
   },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+ 
 ];
 
 const showCards = () => {
