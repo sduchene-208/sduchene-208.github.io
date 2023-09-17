@@ -16,28 +16,28 @@ const exp = [
     cardImage: "assets/images/experience-page/1638466889021.jpg",
     place: "Solid State Operations, Inc.",
     time: "(2021 - 2022)",
-    desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
+    desp: "<li>Served as the lead BA on the Harbor|9 product line; a modular government platform that brings together a diverse group of software vendors in one place for State Agencies to access the best choices in platform features, quality, cost and speed of implementation.</li><li>Specialized in Unemployment Tax services and Appeals/Adjudication functions.</li><li>Evaluated business processes, anticipated requirements, uncovered areas for improvement, and developed/implemented effective solutions.</li><li>Supported the Office of Strategic Partnerships & Project Management in migration and modernization of state Unemployment Insurance agencies.</li>",
   },
   {
     title: "Research Business Analyst",
     cardImage: "assets/images/experience-page/CLVT (1).png",
     place: "Clarivate Analytics",
     time: "(2020 - 2021)",
-    desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
+    desp: "<li>Conducting intellectual property and trademark research and analyses through the use of proprietary software.</li><li>Analyzed and reported trademarks of interest by utilizing proprietary resources and formulating concise research strategies.</li><li>Maintained awareness of current developments in Intellectual Property and Internet trends.</li><li>Ensured a high level of confidentiality with respect to the customers and their trademarks.</li>",
   },
   {
     title: "Probation and Parole Officer, Sr.",
     cardImage: "assets/images/experience-page/IDOC.png",
     place: "Idaho Department of Correction",
     time: "(2015 - 2021)",
-    desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
+    desp: "<li>Employed a balance of principles related to counseling, case management, and law enforcement to ensure the safety of our communities and clients who are on adult felony probation and parole.</li><li>Utilized the principles of evidence-based practices to build rapport with clients and utilized community resources to assist offenders in moving toward long-term behavioral change.</li><li>Trained a multitude of new hires in the areas of evidence handling, firearms maintenance, and firearm operations (legal and ethical concepts, shooting).</li>",
   },
   {
     title: "Correctional Field Training Officer",
     cardImage: "assets/images/experience-page/IDOC.png",
     place: "Idaho Department of Correction",
     time: "(2012 - 2015)",
-    desp: "<li>Text to be updated.</li><li>Text to be updated.</li><li>Text to be updated.</li>",
+    desp: "<li>Facilitated a protective environment by conducting required safety protocols for a population of over 2000 inmates daily. Trained and educated new and current staff members.</li>",
   }
 ];
 
