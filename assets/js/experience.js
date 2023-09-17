@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/GeoSol_Logo_1C.png",
     place: "Geographic Solutions, Inc.",
     time: "(2022 - present)",
-    desp: "<li>Text to be updated.</li>",
+    desp: "<li>Evaluated business processes, anticipated requirements, uncovered areas for improvement, and developed/implemented effective solutions. Lead ongoing reviews of business processes and developed optimization strategies.</li><li>Coordinated and met with clients and business leaders, as well as worked closely with software architects and development teams to ensure that the direction, scope, and dependencies are identified and documented.</li><li>Text to be updated.</li><li>Utilized a strong knowledge of both project management and the SDLC in large-scale development projects.</li><li>Translated business requirements into concise system requirements for use by the software architects and development teams.</li><li>Maintained an extensive understanding of multiple functional areas.</li><li>Successfully designed, updated, and implemented the first UI Tax Rate run of the GUS Tax system.</li>",
   },
   {
     title: "Business Analyst / Product Owner",
