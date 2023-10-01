@@ -4,35 +4,35 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "Regression Analysis and Prediction of Hospital Capacity in Idaho and Oregon",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Steven Duchene",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "Colorado State University Business Analytics and Information Systems Capstone",
+    researchYr: 2021,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+    image: "assets/images/research-page/2023-10-01_12-33-41.jpg",
     citation: {
       vancouver:
-        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Duchene, Steven. Regression Analysis and Prediction of Hospital Capacity in Idaho and Oregon. Colorado State University Business Analytics and Information Systems Capstone 2021",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "The COVID-19 pandemic continues to spread virtually uncontrolled, resulting in hospitals and health systems becoming inundated with critically ill patients. Given that healthcare systems are ill prepared, the consequences of being ill equipped including healthcare systems becoming overwhelmed are of critical importance. This study seeks to improve the predictive capabilities for the 2021-22 through a critical analysis of Hospital Coverage for the years 2020-21, beginning with the discovery dates of SARS-CoV-2 in the states of Idaho and Oregon. The results of this study indicate that the state of Idaho exhibits both beta and Weibull-like distributions while Oregon seems to exhibit a Poisson-type distribution. Although overall, the models appeared to exhibit moderately strong predictive capabilities, further research is necessary in the realm of predictive analytics; specifically, the creation for forecasting models such as stochastic theory mathematical models and data science/machine learning techniques.",
     absbox: "absPopup1",
   },
 
   {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    title: "House Price Prediction using Linear Regression and Prediction Techniques",
     authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+      "Steven Duchene",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
+      "Colorado State University Data Science Foundation Portfolio Project",
     researchYr: 2020,
     citebox: "popup2",
-    image: "assets/images/research-page/crossLingual.png",
+    image: "assets/images/research-page/R_logo.svg.png",
     citation: {
       vancouver:
-        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Duchene, Steven. House Price Prediction using Linear Regression and Prediction Techniques. Colorado State University Data Science Foundation Portfolio Project 2020.",
     },
     abstract:
       "This is currently left empty and this can be considered as a dummy data 2",
