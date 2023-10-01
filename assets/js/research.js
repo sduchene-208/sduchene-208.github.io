@@ -35,7 +35,7 @@ const research = [
         "Duchene, Steven. House Price Prediction using Linear Regression and Prediction Techniques. Colorado State University Data Science Foundation Portfolio Project 2020.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 2",
+      "he ability to predict housing prices is a complicated process that includes many different types of variables; ranging from height to age and everything in between. In real estate, predicting the actions of the housing market is crucial. Regression analysis offers a scientific approach for the valuation and prediction of real estate properties. Linear regression and prediction techniques offer a more quantitative approach to the real estate valuation process; one that can then be supplemented with the realtor's qualitative analyses and local market knowledge. The goal of this report is to utilize 24 quantitative, explanatory variables which describe residential homes in Ames, IA. The training dataset is used to train an algorithm and produce predictive results. The testing dataset is utilized to determine how well the training algorithm is able to predict for any given response variable. The R-squared value for the linear regression model was calculated to be 0.8423 or 84.23%.",
     absbox: "absPopup2",
   },
 
