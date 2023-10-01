@@ -11,61 +11,51 @@ const moocscards = [
   },
   {
     title: "Business Analysis Foundations: Business Process Modeling",
-    cardImage: "assets/images/education-page/LI-Logo.png",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
     moocLink: "https://www.linkedin.com/learning/business-analysis-foundations-business-process-modeling",
   },
   {
     title: "Business Analysis for Project Managers",
-    cardImage: "assets/images/education-page/LI-Logo.png",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
     moocLink: "https://www.linkedin.com/learning/business-analysis-for-project-managers",
   },
   {
     title: "Business Analysis: Essential Tools and Techniques",
-    cardImage: "assets/images/education-page/Business Analysis: Essential Tools and Techniques",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
     moocLink: "https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
+    title: "Requirements Elicitation and Analysis",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
     moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Requirements Elicitation for Business Analysts: Interviews",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
+    moocLink: "https://www.linkedin.com/learning/requirements-elicitation-for-business-analysts-interviews",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Business Analyst and Project Manager Collaboration",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
+    moocLink: "https://www.linkedin.com/learning/business-analyst-and-project-manager-collaboration",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "Speaking Confidently and Effectively",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
+    moocLink: "https://www.linkedin.com/learning/speaking-confidently-and-effectively",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    title: "Managing Project Stakeholders",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://www.linkedin.com/learning/managing-project-stakeholders-2",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    title: "Statistics and Data Mining for Business Intelligence",
+    cardImage: "assets/images/education-page/133603-badge-ColoradoStateUGlobal.png",
+    moocLink: "https://www.credly.com/org/sas/badge/sas-csu-global-academic-specialization-in-statistic",
   },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  
 ];
 
 const experience = [
