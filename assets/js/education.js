@@ -5,24 +5,24 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Certified Scrum Product Owner",
+    cardImage: "assets/images/education-page/seal-cspo.png",
+    moocLink: "https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Business Analysis Foundations: Business Process Modeling",
+    cardImage: "assets/images/education-page/LI-Logo.png",
+    moocLink: "https://www.linkedin.com/learning/business-analysis-foundations-business-process-modeling",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Business Analysis for Project Managers",
+    cardImage: "assets/images/education-page/LI-Logo.png",
+    moocLink: "https://www.linkedin.com/learning/business-analysis-for-project-managers",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Business Analysis: Essential Tools and Techniques",
+    cardImage: "assets/images/education-page/Business Analysis: Essential Tools and Techniques",
+    moocLink: "https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques",
   },
   {
     title: "Introduction to CSS 3",
