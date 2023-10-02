@@ -10,6 +10,11 @@ const moocscards = [
     moocLink: "https://www.linkedin.com/learning/business-analysis-essential-tools-and-techniques",
   },
   {
+    title: "Statistics and Data Mining for Business Intelligence",
+    cardImage: "assets/images/education-page/133603-badge-ColoradoStateUGlobal.png",
+    moocLink: "https://www.credly.com/org/sas/badge/sas-csu-global-academic-specialization-in-statistic",
+  },
+  {
     title: "Business Analysis Foundations: Business Process Modeling",
     cardImage: "assets/images/education-page/LI-In-Bug.png",
     moocLink: "https://www.linkedin.com/learning/business-analysis-foundations-business-process-modeling",
@@ -50,10 +55,11 @@ const moocscards = [
     moocLink:
       "https://www.linkedin.com/learning/managing-project-stakeholders-2",
   },
-  {
-    title: "Statistics and Data Mining for Business Intelligence",
-    cardImage: "assets/images/education-page/133603-badge-ColoradoStateUGlobal.png",
-    moocLink: "https://www.credly.com/org/sas/badge/sas-csu-global-academic-specialization-in-statistic",
+{
+    title: "Lean Technology Strategy: Building High-Performing Teams",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
+    moocLink:
+      "https://www.linkedin.com/learning/lean-technology-strategy-building-high-performing-teams",
   },
   
 ];
