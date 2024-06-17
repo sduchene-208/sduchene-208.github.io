@@ -82,7 +82,7 @@ const volunteershipcards = [
       "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access.",
   },
   {
-    title: "Job Service North Dakota DOL Modernization",
+    title: "North Dakota DOL Modernization",
     cardImage: "assets/images/experience-page/JSND.png",
     description:
       "Modernization of legacy Unemployment system to detect and prevent fraud, ensure timely payment of benefits, and promote equitable access.",
