@@ -339,3 +339,120 @@ a { color: inherit; text-decoration: none; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+
+/* DEFINITIVE WORKFLOW FIX */
+.system-visual {
+  position: relative;
+  min-height: 475px;
+  padding: 18px;
+  display: grid;
+  grid-template-rows: 24px minmax(0, 1fr) 48px;
+  overflow: hidden;
+}
+
+.system-visual .visual-header {
+  position: static;
+  min-height: 24px;
+}
+
+.system-visual .workflow-area {
+  min-height: 0;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.system-visual .workflow {
+  width: 100%;
+  height: 340px;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: 72px 20px 72px 20px 64px 20px 72px;
+  align-content: start;
+  justify-items: center;
+  gap: 0;
+  position: static;
+  overflow: visible;
+}
+
+.system-visual .workflow > .node {
+  width: 205px;
+  height: 72px;
+  min-height: 0;
+  padding: 12px 17px;
+}
+
+.system-visual .workflow > .node-router,
+.system-visual .workflow > .node-output {
+  height: 72px;
+}
+
+.system-visual .workflow .connector {
+  width: 1px;
+  height: 20px;
+  min-height: 0;
+  align-self: stretch;
+  position: relative;
+}
+
+.system-visual .workflow .node-stack {
+  width: 235px;
+  height: 64px;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.system-visual .workflow .mini-node {
+  height: 29px;
+  min-height: 0;
+  padding: 7px 10px;
+}
+
+.system-visual .visual-footer {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  min-height: 48px;
+  height: 48px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+  .system-visual {
+    min-height: 500px;
+    grid-template-rows: 24px minmax(0, 1fr) 48px;
+  }
+
+  .system-visual .workflow {
+    height: 304px;
+    grid-template-rows: 66px 16px 66px 16px 58px 16px 66px;
+  }
+
+  .system-visual .workflow > .node,
+  .system-visual .workflow > .node-router,
+  .system-visual .workflow > .node-output {
+    width: 180px;
+    height: 66px;
+    padding: 10px 14px;
+  }
+
+  .system-visual .workflow .node-stack {
+    width: 210px;
+    height: 58px;
+  }
+
+  .system-visual .workflow .mini-node {
+    height: 26px;
+    padding: 6px 8px;
+  }
+}
+
