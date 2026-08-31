@@ -1,4 +1,4 @@
-# Steven Duchene — Portfolio v2
+# Steven Duchene — Portfolio
 
 A visual, responsive, single-page professional portfolio built with plain HTML, CSS, and vanilla JavaScript.
 
