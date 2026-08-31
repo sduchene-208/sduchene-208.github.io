@@ -9,7 +9,7 @@
   <meta property="og:description" content="Software Business Analyst · Product Owner · AI & Enterprise Systems">
   <meta property="og:type" content="website">
   <title>Steven Duchene | AI & Enterprise Systems</title>
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <div class="cursor-glow" aria-hidden="true"></div>
@@ -69,57 +69,35 @@
 
           <div class="workflow-area">
             <div class="workflow">
-              <div class="flow-node flow-context">
-                <div class="flow-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3"></circle><path d="M5 20c.7-3.1 3.1-5 7-5s6.3 1.9 7 5"></path></svg>
-                </div>
-                <div class="flow-copy">
-                  <strong>BUSINESS CONTEXT</strong>
-                  <small>goals · constraints · domain</small>
-                </div>
+              <div class="node node-input">
+                <span class="node-icon">01</span>
+                <strong>BUSINESS<br>CONTEXT</strong>
+                <small>requirements · rules · domain</small>
               </div>
 
-              <div class="flow-connector"><span></span></div>
+              <div class="connector c1"><span></span></div>
 
-              <div class="flow-node flow-router">
-                <div class="flow-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none"><rect x="9" y="3" width="6" height="5" rx="1"></rect><rect x="3" y="16" width="6" height="5" rx="1"></rect><rect x="15" y="16" width="6" height="5" rx="1"></rect><path d="M12 8v4M6 16v-2h12v2"></path></svg>
-                </div>
-                <div class="flow-copy">
-                  <strong>AGENT ROUTER</strong>
-                  <small>steering · guardrails</small>
-                </div>
+              <div class="node node-router">
+                <span class="node-icon">AI</span>
+                <strong>AGENT<br>ROUTER</strong>
+                <small>steering · guardrails</small>
               </div>
 
-              <div class="flow-connector"><span></span></div>
+              <div class="connector c2"><span></span></div>
 
-              <div class="flow-modules">
-                <div class="flow-module">
-                  <div class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"></path></svg></div>
-                  <div class="flow-copy"><strong>CODE</strong><small>read-only execution</small></div>
-                </div>
-                <div class="flow-module">
-                  <div class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="5" rx="7" ry="3"></ellipse><path d="M5 5v7c0 1.7 3.1 3 7 3s7-1.3 7-3V5M5 12v7c0 1.7 3.1 3 7 3s7-1.3 7-3v-7"></path></svg></div>
-                  <div class="flow-copy"><strong>DATA</strong><small>read-only access</small></div>
-                </div>
-                <div class="flow-module">
-                  <div class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2"></rect><path d="M8 7h8M8 11h8M8 15h5"></path></svg></div>
-                  <div class="flow-copy"><strong>TICKETS</strong><small>read-only access</small></div>
-                </div>
-                <div class="flow-module">
-                  <div class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M19 12a7 7 0 0 0-.2-1.6l2-1.2-2-3.4-2.1 1.1A7 7 0 0 0 14 5.7V3h-4v2.7a7 7 0 0 0-2.7 1.2L5.2 5.8l-2 3.4 2 1.2A7 7 0 0 0 5 12c0 .6.1 1.1.2 1.6l-2 1.2 2 3.4 2.1-1.1A7 7 0 0 0 10 18.3V21h4v-2.7a7 7 0 0 0 2.7-1.2l2.1 1.1 2-3.4-2-1.2c.1-.5.2-1 .2-1.6Z"></path></svg></div>
-                  <div class="flow-copy"><strong>CONFIG</strong><small>read-only access</small></div>
-                </div>
+              <div class="node-stack">
+                <div class="mini-node">CODE <b>↗</b></div>
+                <div class="mini-node">DATA <b>↗</b></div>
+                <div class="mini-node">TICKETS <b>↗</b></div>
+                <div class="mini-node">CONFIG <b>↗</b></div>
               </div>
 
-              <div class="flow-connector"><span></span></div>
+              <div class="connector c3"><span></span></div>
 
-              <div class="flow-node flow-output">
-                <div class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V5M4 19h17"></path><path d="M7 15l4-4 3 2 6-7"></path></svg></div>
-                <div class="flow-copy">
-                  <strong>ACTIONABLE INSIGHT</strong>
-                  <small>business + technical</small>
-                </div>
+              <div class="node node-output">
+                <span class="node-icon">→</span>
+                <strong>ACTIONABLE<br>INSIGHT</strong>
+                <small>business + technical</small>
               </div>
             </div>
           </div>
