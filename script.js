@@ -22,6 +22,15 @@ if (menuToggle && navLinks) {
       menuToggle.setAttribute("aria-label", "Open navigation");
     });
   });
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape" && navLinks.classList.contains("open")) {
+      navLinks.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.setAttribute("aria-label", "Open navigation");
+      menuToggle.focus();
+    }
+  });
 }
 
 if (cursorGlow && window.matchMedia("(pointer: fine)").matches) {
