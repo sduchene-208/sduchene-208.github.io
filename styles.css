@@ -113,8 +113,6 @@ h3 { font-family: var(--serif); font-size: clamp(1.55rem, 2.6vw, 2.4rem); font-w
 .agent-flow li { display: grid; grid-template-columns: 130px 1fr; gap: 24px; padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,.16); }
 .agent-flow li span { color: #e98c70; font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .agent-flow li strong { font-family: var(--serif); font-size: 1.12rem; line-height: 1.35; }
-.agent-flow .human-gate { position: relative; }
-.agent-flow .human-gate::after { content: "Decision gate"; position: absolute; right: 0; top: 29px; color: #bbc4bf; font-size: .63rem; letter-spacing: .08em; text-transform: uppercase; }
 .demo-principle { display: flex; justify-content: space-between; gap: 28px; padding: 28px 30px; }
 .demo-principle span { color: #e98c70; }
 .demo-principle strong { max-width: 280px; font-size: .84rem; }
@@ -195,7 +193,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid #f0aa7f; outline-offs
   .trace-outputs div:last-child { padding-left: 0; }
   .agent-flow { padding: 0 22px; }
   .agent-flow li { grid-template-columns: 1fr; gap: 6px; padding: 22px 0; }
-  .agent-flow .human-gate::after { display: none; }
   .demo-task, .demo-principle { padding-inline: 22px; }
   .demo-principle { display: grid; gap: 8px; }
   .career-list article { grid-template-columns: 1fr; gap: 8px; }
@@ -205,4 +202,5 @@ a:focus-visible, button:focus-visible { outline: 3px solid #f0aa7f; outline-offs
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
 
