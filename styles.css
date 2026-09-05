@@ -38,6 +38,7 @@ img { display: block; max-width: 100%; }
 .brand { font-family: var(--serif); font-size: 1.12rem; font-weight: 700; text-decoration: none; }
 .nav-links { display: flex; gap: 28px; }
 .nav-links a, .resume-link { font-size: .82rem; font-weight: 700; text-decoration: none; }
+.mobile-resume-link { display: none; }
 .nav-links a:hover, .resume-link:hover, .text-link:hover { color: var(--accent-dark); }
 .resume-link { justify-self: end; }
 .menu-toggle { display: none; }
@@ -58,7 +59,7 @@ h3 { font-family: var(--serif); font-size: clamp(1.55rem, 2.6vw, 2.4rem); font-w
 .section-intro { max-width: 720px; }
 .section-intro > p:not(.eyebrow) { max-width: 600px; margin: 24px 0 0; color: var(--ink-soft); font-size: 1.05rem; }
 .feature-work { display: grid; grid-template-columns: minmax(280px, .72fr) 1.28fr; gap: clamp(44px, 8vw, 110px); align-items: center; margin-top: 70px; padding: clamp(28px, 5vw, 64px); background: var(--white); border-top: 4px solid var(--accent); }
-.feature-cover { background: #202728; box-shadow: 0 24px 50px rgba(23, 38, 33, .18); transition: transform .2s ease; }
+.feature-cover { display: block; background: #202728; box-shadow: 0 24px 50px rgba(23, 38, 33, .18); transition: transform .2s ease; }
 .feature-cover:hover { transform: translateY(-4px); }
 .feature-cover img { width: 100%; }
 .work-type { margin: 0 0 12px; color: var(--accent-dark); font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
@@ -98,6 +99,10 @@ h3 { font-family: var(--serif); font-size: clamp(1.55rem, 2.6vw, 2.4rem); font-w
 .approach-section .section-intro > p:not(.eyebrow) { color: #bbc4bf; }
 .sticky-intro { position: sticky; top: 120px; }
 .demo-controls { display: grid; gap: 0; margin-top: 38px; border-top: 1px solid rgba(255,255,255,.22); }
+.framework-summary { display: grid; gap: 0; margin: 32px 0 0; border-top: 1px solid rgba(255,255,255,.22); }
+.framework-summary div { display: grid; grid-template-columns: 104px 1fr; gap: 16px; padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,.16); }
+.framework-summary dt { color: #e98c70; font-size: .66rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.framework-summary dd { margin: 0; color: #bbc4bf; font-size: .75rem; line-height: 1.45; }
 .demo-choice { min-height: 48px; padding: 14px 0; border: 0; border-bottom: 1px solid rgba(255,255,255,.22); background: transparent; color: #bbc4bf; font: inherit; font-size: .82rem; font-weight: 700; text-align: left; cursor: pointer; }
 .demo-choice::before { content: "○"; display: inline-block; width: 28px; color: #e98c70; }
 .demo-choice.is-active { color: var(--paper); }
@@ -162,6 +167,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #f0aa7f; outline-offs
 @media (max-width: 580px) {
   body { font-size: 15.5px; }
   .resume-link { display: none; }
+  .nav-links .mobile-resume-link { display: block; padding-top: 16px; border-top: 1px solid var(--line); color: var(--accent-dark); }
   .nav { grid-template-columns: 1fr auto; }
   h1 { font-size: clamp(2.45rem, 11.5vw, 3rem); }
   .hero { padding: 66px 0 58px; }
@@ -169,10 +175,11 @@ a:focus-visible, button:focus-visible { outline: 3px solid #f0aa7f; outline-offs
   .hero-actions { margin-top: 26px; }
   .work-section, .approach-section, .experience-section { padding: 70px 0; }
   .feature-work { display: block; margin-top: 44px; padding: 20px; }
-  .feature-cover { max-width: 220px; margin-bottom: 30px; }
-  .proof-points { grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 22px 0; }
-  .proof-points dt { font-size: 1.15rem; }
-  .proof-points dd { font-size: .66rem; }
+  .feature-cover { max-width: 180px; margin-bottom: 26px; }
+  .proof-points { grid-template-columns: 1fr; gap: 0; padding: 14px 0; }
+  .proof-points div { display: grid; grid-template-columns: 112px 1fr; gap: 16px; align-items: baseline; padding: 9px 0; }
+  .proof-points dt { font-size: 1.18rem; }
+  .proof-points dd { margin: 0; font-size: .72rem; }
   .project-row { grid-template-columns: 1fr; gap: 12px; }
   .project-row > p { grid-column: 1; }
   .project-number { display: none; }
