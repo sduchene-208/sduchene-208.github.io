@@ -160,29 +160,34 @@ a:focus-visible, button:focus-visible { outline: 3px solid #f0aa7f; outline-offs
   .contact-grid .button { justify-self: start; }
 }
 @media (max-width: 580px) {
-  body { font-size: 16px; }
+  body { font-size: 15.5px; }
   .resume-link { display: none; }
   .nav { grid-template-columns: 1fr auto; }
-  h1 { font-size: clamp(2.75rem, 12vw, 3.35rem); }
-  .feature-work { display: block; padding: 24px; }
-  .feature-cover { max-width: 260px; margin-bottom: 36px; }
-  .proof-points { grid-template-columns: 1fr; gap: 17px; }
-  .proof-points div { display: grid; grid-template-columns: 90px 1fr; gap: 12px; align-items: baseline; }
+  h1 { font-size: clamp(2.45rem, 11.5vw, 3rem); }
+  .hero { padding: 66px 0 58px; }
+  .hero-grid { gap: 34px; }
+  .hero-actions { margin-top: 26px; }
+  .work-section, .approach-section, .experience-section { padding: 70px 0; }
+  .feature-work { display: block; margin-top: 44px; padding: 20px; }
+  .feature-cover { max-width: 220px; margin-bottom: 30px; }
+  .proof-points { grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 22px 0; }
+  .proof-points dt { font-size: 1.15rem; }
+  .proof-points dd { font-size: .66rem; }
   .project-row { grid-template-columns: 1fr; gap: 12px; }
   .project-row > p { grid-column: 1; }
   .project-number { display: none; }
-  .analysis-example { margin-top: 72px; }
+  .analysis-example { margin-top: 60px; padding-top: 42px; }
   .trace-map { padding: 24px; }
   .trace-origin { grid-template-columns: 1fr; gap: 8px; }
   .trace-layers { grid-template-columns: 1fr; }
-  .trace-layer, .trace-layer:not(:last-child) { min-height: auto; margin: 0; padding: 24px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  .trace-layer, .trace-layer:not(:last-child) { min-height: auto; margin: 0; padding: 19px 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .trace-layer::before { top: -5px; }
   .trace-outputs { grid-template-columns: 1fr; }
   .trace-outputs div { display: grid; gap: 8px; }
   .trace-outputs div:first-child { padding-right: 0; border-right: 0; }
   .trace-outputs div:last-child { padding-left: 0; }
   .agent-flow { padding: 0 22px; }
-  .agent-flow li { grid-template-columns: 1fr; gap: 8px; }
+  .agent-flow li { grid-template-columns: 1fr; gap: 6px; padding: 22px 0; }
   .agent-flow .human-gate::after { display: none; }
   .demo-task, .demo-principle { padding-inline: 22px; }
   .demo-principle { display: grid; gap: 8px; }
