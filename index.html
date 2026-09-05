@@ -19,6 +19,7 @@
       <a class="brand" href="#top" aria-label="Steven Duchene home">Steven Duchene</a>
       <div class="nav-links" id="nav-links">
         <a href="#work">Work</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+        <a class="mobile-resume-link" href="assets/Steven-Duchene-Resume.pdf" target="_blank">Résumé <span aria-hidden="true">↗</span></a>
       </div>
       <a class="resume-link" href="assets/Steven-Duchene-Resume.pdf" target="_blank">Résumé <span aria-hidden="true">↗</span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
@@ -117,8 +118,8 @@
               </div>
             </div>
             <div class="trace-outputs">
-              <div><span>Analysis output</span><strong>Current-state business rule</strong></div>
-              <div><span>Traceability</span><strong>Evidence path & open questions</strong></div>
+              <div><span>Analysis output</span><strong>Current-state business rules</strong></div>
+              <div><span>Usable business artifact</span><strong>Documented system functionality</strong></div>
             </div>
           </div>
         </article>
@@ -131,10 +132,17 @@
           <p class="eyebrow">Interactive demonstration</p>
           <h2>See how an agentic workflow changes by task.</h2>
           <p>Choose a task to see what changes—and where human review stays essential. Based on patterns documented in the white paper.</p>
+          <dl class="framework-summary" aria-label="AI-augmented business analysis framework">
+            <div><dt>Evidence</dt><dd>Domain knowledge, source code, databases, tickets</dd></div>
+            <div><dt>Orchestration</dt><dd>Specialist routing, steering, and validation</dd></div>
+            <div><dt>Outputs</dt><dd>Client-readable and developer-detail documentation</dd></div>
+            <div><dt>Controls</dt><dd>Read-only access, PII protection, no conjecture</dd></div>
+          </dl>
           <div class="demo-controls" role="group" aria-label="Choose an analysis workflow">
             <button type="button" class="demo-choice is-active" data-demo="requirements" aria-pressed="true">Synthesize requirements</button>
             <button type="button" class="demo-choice" data-demo="rules" aria-pressed="false">Trace a business rule</button>
             <button type="button" class="demo-choice" data-demo="impact" aria-pressed="false">Assess change impact</button>
+            <button type="button" class="demo-choice" data-demo="incident" aria-pressed="false">Investigate an incident</button>
           </div>
         </div>
         <div class="agent-demo" aria-live="polite">
