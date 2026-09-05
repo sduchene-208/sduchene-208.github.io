@@ -1,55 +1,66 @@
-const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
-const year = document.getElementById("year");
-const cursorGlow = document.querySelector(".cursor-glow");
+const menuButton = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('#nav-links');
 
-if (year) year.textContent = new Date().getFullYear();
-
-if (menuToggle && navLinks) {
-  menuToggle.addEventListener("click", () => {
-    const open = navLinks.classList.toggle("open");
-    menuToggle.setAttribute("aria-expanded", String(open));
-    menuToggle.setAttribute(
-      "aria-label",
-      open ? "Close navigation" : "Open navigation"
-    );
+if (menuButton && navLinks) {
+  menuButton.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    menuButton.setAttribute('aria-expanded', String(isOpen));
+    menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
   });
-
-  navLinks.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", () => {
-      navLinks.classList.remove("open");
-      menuToggle.setAttribute("aria-expanded", "false");
-      menuToggle.setAttribute("aria-label", "Open navigation");
+  navLinks.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation');
     });
   });
-
-  document.addEventListener("keydown", event => {
-    if (event.key === "Escape" && navLinks.classList.contains("open")) {
-      navLinks.classList.remove("open");
-      menuToggle.setAttribute("aria-expanded", "false");
-      menuToggle.setAttribute("aria-label", "Open navigation");
-      menuToggle.focus();
-    }
-  });
 }
+document.querySelector('#year').textContent = new Date().getFullYear();
 
-if (cursorGlow && window.matchMedia("(pointer: fine)").matches) {
-  window.addEventListener("pointermove", event => {
-    cursorGlow.style.left = `${event.clientX}px`;
-    cursorGlow.style.top = `${event.clientY}px`;
-  });
-}
-
-const observer = new IntersectionObserver(
-  entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
-      }
-    });
+const demos = {
+  requirements: {
+    task: 'Task: Turn source material into a reviewable requirement set',
+    sources: 'Policies, meeting notes, existing requirements',
+    agent: 'Requirements analyst workflow',
+    review: 'Resolve ambiguity and verify source coverage',
+    output: 'Draft requirements with source traceability'
   },
-  { threshold: 0.12 }
-);
+  rules: {
+    task: 'Task: Explain how a current business rule actually works',
+    sources: 'Process documentation, application code, data model',
+    agent: 'Business-rule tracing workflow',
+    review: 'Confirm logic, exceptions, and evidence citations',
+    output: 'Current-state rule map with unresolved questions'
+  },
+  impact: {
+    task: 'Task: Identify what a proposed change may affect',
+    sources: 'Change request, architecture, interfaces, dependencies',
+    agent: 'Change-impact analysis workflow',
+    review: 'Challenge assumptions and set the decision boundary',
+    output: 'Impact brief with affected areas and validation needs'
+  }
+};
 
-document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+const demoFields = {
+  task: document.querySelector('#demo-task'),
+  sources: document.querySelector('#demo-sources'),
+  agent: document.querySelector('#demo-agent'),
+  review: document.querySelector('#demo-review'),
+  output: document.querySelector('#demo-output')
+};
+
+document.querySelectorAll('.demo-choice').forEach((button) => {
+  button.addEventListener('click', () => {
+    const selected = demos[button.dataset.demo];
+    if (!selected) return;
+    document.querySelectorAll('.demo-choice').forEach((choice) => {
+      const active = choice === button;
+      choice.classList.toggle('is-active', active);
+      choice.setAttribute('aria-pressed', String(active));
+    });
+    Object.entries(demoFields).forEach(([key, element]) => {
+      if (element) element.textContent = selected[key];
+    });
+  });
+});
+
