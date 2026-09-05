@@ -38,6 +38,13 @@ const demos = {
     agent: 'Change-impact analysis workflow',
     review: 'Challenge assumptions and set the decision boundary',
     output: 'Impact brief with affected areas and validation needs'
+  },
+  incident: {
+    task: 'Task: Determine why reported behavior occurred',
+    sources: 'Ticket notes, linked records, data, code, configuration',
+    agent: 'Incident investigation and evidence workflow',
+    review: 'Confirm the classification, confidence, and next step',
+    output: 'Triage report with evidence, reasoning, and recommendation'
   }
 };
 
